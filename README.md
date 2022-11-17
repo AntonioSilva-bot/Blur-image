@@ -143,6 +143,7 @@ Con los valores recolectados, utilizamos el tamaño del largo y ancho de la imag
                           averageG = 255*maskD;
                         else if(averageG/maskD < 0)
                               averageG = 0;
+			      Copyright (C) 2017 Basile Frabon & 2014 Ivan Kutskir
                         maskedImageG[i*width + j] = averageG/maskD;
 
 
