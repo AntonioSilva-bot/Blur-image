@@ -1,6 +1,6 @@
 # Blur-image
 
-//gcc
+```cpp
 #include <stdlib.h>
 #include <stdio.h>
 #include<string.h>
@@ -245,4 +245,4 @@ int main()
 	printf("Time taken is %lf",endTime - startTime);
   return 0;
 }
-//
+```
