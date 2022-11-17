@@ -206,10 +206,10 @@ Se inicializan los archivos, diendo que en este caso los archivos que utilizamos
 
     png_destroy_write_struct(&png, &info);
 }
-```cpp
+```
 
 Se introduce la mascara y se espera a la ejecución del programa anteriormente comentado
-```
+```cpp
 int main() 
 {
 	printf("\nEnter the size of Mask:\n");
